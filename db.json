@@ -1,7 +1,140 @@
 {
-    "posts": [
-      { "id": 1, "title": "Hello World" },
-      { "id": 2, "title": "JSON Server is awesome!" }
-    ]
-  }
-  
+  "users": [
+    {
+      "name": "Hrithic Raj",
+      "email": "hrj@gmail.com",
+      "username": "hrj",
+      "password": "hrj",
+      "id": "fdb2",
+      "role": "admin",
+      "block": false
+    },
+    {
+      "name": "Abhay pc",
+      "email": "abhay@gmail.com",
+      "username": "abhay",
+      "password": "abhay",
+      "id": "99e0",
+      "role": "user",
+      "block": false
+    }
+  ],
+  "mobiles": [
+    {
+      "id": "00001",
+      "name": "Apple iPhone 15 Pro max",
+      "description": "The latest iPhone with A17 Bionic chip, 6.1-inch Super Retina XDR display, and dynamic island.",
+      "price": 119900,
+      "image": "https://m.media-amazon.com/images/I/81c50PU+lpL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "00002",
+      "name": "Samsung Galaxy S23 Ultra",
+      "description": "Flagship device with Snapdragon 8 Gen 2, 200 MP camera, and 5000mAh battery.",
+      "price": 76999,
+      "image": "https://m.media-amazon.com/images/I/71goZuIha-L._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "00003",
+      "name": "OnePlus 12",
+      "description": "Fast and smooth performance with Snapdragon 8 Gen 3, 120Hz AMOLED display, and Hasselblad cameras.",
+      "price": 63999,
+      "image": "https://m.media-amazon.com/images/I/61BAuSC0UnL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "00004",
+      "name": "Google Pixel 8 5G",
+      "description": "Powered by Google Tensor G3, with AI-powered photography and clean Android experience.",
+      "price": 56399,
+      "image": "https://m.media-amazon.com/images/I/51x3Qb8-Y+L._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "00005",
+      "name": "Xiaomi 14",
+      "description": "Flagship device with Leica optics, Snapdragon 8 Gen 2, and ceramic body design.",
+      "price": 49998,
+      "image": "https://m.media-amazon.com/images/I/71MsYJjQhBL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "00006",
+      "name": "Realme GT 7 pro",
+      "description": "High-performance gaming phone with 240W fast charging and AMOLED display.",
+      "price": 59998,
+      "image": "https://m.media-amazon.com/images/I/612IqV1YEjL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "00007",
+      "name": "Samsung Galaxy S24 FE",
+      "description": "Premium device with 4K OLED display, Exynos 3110, and professional-grade cameras.",
+      "price": 54688,
+      "image": "https://m.media-amazon.com/images/I/717gvwQRw7L._AC_UY327_FMwebp_QL65_.jpg  "
+    },
+    {
+      "id": "00008",
+      "name": "Motorola razr 50",
+      "description": "3.6 External AMOLED Display, 6.9 AMOLED 120Hz Display, 32MP Selfie Camera.",
+      "price": 54999,
+      "image": "https://m.media-amazon.com/images/I/71AGGURIh8L._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "00009",
+      "name": "Motorola Edge 50 Pro",
+      "description": "Slim and powerful device with Snapdragon 8 Gen 2, edge-to-edge pOLED display, and IP68 rating.",
+      "price": 32799,
+      "image": "https://m.media-amazon.com/images/I/715aoVxQNTL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "00010",
+      "name": "Vivo X90 Pro",
+      "description": "Photography-focused device with Zeiss lenses, MediaTek Dimensity 9200, and 1-inch camera sensor.",
+      "price": 53749,
+      "image": "https://m.media-amazon.com/images/I/71Mc1FdLrWL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "00011",
+      "name": "Nothing Phone 2",
+      "description": "Minimalistic design with Snapdragon 8+ Gen 1, Glyph Interface, and OLED display.",
+      "price": 45650,
+      "image": "https://m.media-amazon.com/images/I/819VAShnDpL._AC_UY327_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "00012",
+      "name": "iPhone 16 128 GB",
+      "description": "5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life.",
+      "price": 77400,
+      "image": "https://m.media-amazon.com/images/I/61lLjrvDEkL._AC_UY327_FMwebp_QL65_.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": 876867565675,
+      "userId": "99e0",
+      "products": [
+        {
+          "id": "00001",
+          "name": "Apple iPhone 15 Pro max",
+          "description": "The latest iPhone with A17 Bionic chip, 6.1-inch Super Retina XDR display, and dynamic island.",
+          "price": 119900,
+          "image": "https://m.media-amazon.com/images/I/81c50PU+lpL._AC_UY327_FMwebp_QL65_.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "00002",
+          "name": "Samsung Galaxy S23 Ultra",
+          "description": "Flagship device with Snapdragon 8 Gen 2, 200 MP camera, and 5000mAh battery.",
+          "price": 76999,
+          "image": "https://m.media-amazon.com/images/I/71goZuIha-L._AC_UY327_FMwebp_QL65_.jpg",
+          "quantity": 2
+        }
+      ],
+      "totalAmount": 119900,
+      "date": "24-04-2024",
+      "paymentMethode":"COD",
+      "deliveryAddress": {
+        "name": "Abhay pc",
+        "address": "Ramanattukara",
+        "mobile": 987987995556
+      }
+    }
+  ]
+}
