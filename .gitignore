@@ -1,0 +1,14 @@
+# Node.js specific
+node_modules/
+.env
+
+# Logs
+*.log
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
