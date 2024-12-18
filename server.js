@@ -1,15 +1,10 @@
-const express = require('express');
-const app = express();
-const path = require('path');
-const fs = require('fs')
+const jsonServer = require("json-server"); 
+const server = jsonServer.create();
+const router = jsonServer.router("db.json");
+const middlewares = jsonServer.defaults();
+const port = process.env.PORT || 8080; 
 
-app.get('/',(req,res)=>{
-  fs.readFile(path.join(__dirname,'db.json'),(err,data)=>{
-    if(err) throw Error
-    const jsonString = data.toString('utf-8'); // Convert Buffer to string
-    const jsonObject = JSON.parse(jsonString);
-    res.json(jsonObject)
-  })
-  })
+server.use(middlewares);
+server.use(router);
 
-app.listen(4000,()=>console.log("Server Started.."))
+server.listen(port)
